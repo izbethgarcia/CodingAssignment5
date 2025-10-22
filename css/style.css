@@ -1,0 +1,39 @@
+* {
+box-sizing: border-box;
+}
+
+[class*="col"] {
+      float: left;
+     /* padding: 15px; */
+     }
+
+.row::after {
+ content: "";
+ clear: both;
+ display: block;
+    }
+body {
+ background: #F2F2EB;
+ color: #B8B828;
+ font-family: "Open Sans, Inter";
+/*font-weight: bold; */
+}
+
+h1, h2, h3 {
+ font-family: "Lato";   
+ color: #B8B828;
+ font-style:normal;
+/*font-size:30px; */
+}
+
+legend, fieldset {
+color: #B8B828;
+}
+
+p {
+ color: #B8B828;    
+}
+
+li {
+  color: #B8B828;
+}
