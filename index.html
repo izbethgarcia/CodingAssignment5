@@ -8,10 +8,6 @@
     <title>When Life Gives You Lemons, You know what to do!</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Smooch Sans"/>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-   <style>
-     body{background-color:white;
-          font-family:Roboto,Open Sans;}
-   </style> 
    </head>
    <body>
     <div class="container-fluid">
@@ -22,63 +18,85 @@
     <h2>Delicious Lemonade</h2>
         <div class 
          <p>Recipe by: Lizbeth Garcia</p>
-   
-    <div class="row>"         
-    <div class="col-3 menu"> 
-        <ul>
-        <li>Recipe 1</li>
-        <li>Recipe 2</li>
-        <li>Recipe 3</li>
-        <li>Recipe 4</li>
-        </ul>
-     </div>       
-     <div class="col">     
-            <figure>
-            <img src="images/lemonade.jpeg" alt="Refreshing glass of lemonade" height="250">
-            <figcaption>Photo by:pixel</figcaption>
-                </figure>
+        <div class="row">
+            <div class="col" style="width:10%">
+                <div class="link">
+                    <p><span>Recipe 1</span></p>
+                </div>
+                <div class="link">
+                    <p><span>Recipe 2</span></p>
+                </div>
+                <div class="link">
+                    <p>Recipe 3</p>
+                </div>
+                <div class="link">
+                    <p>Recipe 4</p>
+                </div>
+            </div>
+        <div class="col" style="width:55%">
+                <div id="image">
+                    <figure>
+                        <img src="images/lemonade.jpeg" alt="Refreshing glass of lemonade"
+                            style="width:100%;">
+                        <figcaption>Photo by:pixel</figcaption>
+                    </figure>
+
+                </div>
+            </div>
+            <div class="col" style="width:35%">
+                <div id="rating">
+                    <h3 class="center-text">Rate this recipe</h3>
+                    <fieldset style="width: 300px;">
+                        <legend>How difficult is this recipe?</legend>
+                        <input type="radio" id="easy" name="easy">Easy
+                        <input type="radio" id="med" name="med">Intermediate
+                        <input type="radio" id="hard" name="hard">Hard
+                    </fieldset>
+                    <h3 class="center-text">Conversion</h3>
+                    <form>
+                        <input type="number" name="conversion_cups" id="conversion_cups">
+                        =
+                        <input type="number" name="conversion_tbsp" id="conversion_tbsp">
+                    </form>
+                </div>
+            </div>
         </div>
-     <div class="col">
-     <h3 class="rate">Rate This Recipe</h3>
-    <fieldset style="width: 300px;">
-      <legend>How difficult is this recipe?</legend>
-        <input type="radio" id="easy" name="easy"> Easy
-        <input type="radio" id="med" name="med">Intermediate
-        <input type="radio"id="hard" name="hard"> Hard
-    </fieldset>
-    <p>&nbsp;</p>
-    <h3>Conversion</h3>
-    <input type="text" id="tblspn" name ="tblspn">
-    = <input type="text" id="cups" name="cups">  
-    </div>  
-   <div class="row">
-    <div class="col" style="width:25%">   
-    <h3>Ingredients:</h3> 
-        <ul>
-            <li>5 lemons</li>  
-            <li>5 cups water</li>  
-            <li>1 cup sugar</li>  
-        </ul>
-    </div>
-    <div class="col" style="width:15%">
-    <!--<h3>Equipment:</h3> 
-        <ul>
-            <li>Measuring cup</li>  
-            <li>Jar</li>  
-            <li>Lemon squeezer</li>  
-            <li>Large spoon</li>
-        </ul>   -->
+        <div class="row">
+            <div class="col" style="width:25%">
+              <div class="block">
+                    <h3>Ingredients</h3>
+                    <ul>
+                         <li>5 lemons</li>  
+                         <li>5 cups water</li>  
+                         <li>1 cup sugar</li> 
+                    </ul>
+                </div>
+            </div>
+            <div class="col" style="width:25%">
+                <div class="block">
+                    <h3>Equipment</h3> 
+                    <uL>
+                       <li>Measuring cup</li>  
+                       <li>Jar</li>  
+                       <li>Lemon squeezer</li>  
+                       <li>Large spoon</li>
+                    </ul>
+                </div>  
+            </div>
+            <div class="col" style="width:33%">
+                <div class="block">
+                    <h3>Directions</h3>
+                    <ol>
+                        <li> Pour 5 cups of water into jar</li>  
+                        <li> Add 1 cup of sugar and mix until fully dissolved</li>  
+                        <li> Squeeze 5 lemons into jar and mix</li> 
+                        <li> Add ice if desired and serve!</li> 
+                    </ol>
+                </div>
+            </div>
         </div>
-      <div class="col-12" style="width:60%">
-     <h3>Directions:</h3> 
-        <ol>
-            <li> Pour 5 cups of water into jar</li>  
-            <li> Add 1 cup of sugar and mix until fully dissolved</li>  
-            <li> Squeeze 5 lemons into jar and mix</li> 
-            <li> Add ice if desired and serve!</li> 
-        </ol>  
-        <hr />
+       <hr />
         <p>This page created as academic activity only.</p>
        
- </body>
+  </body>
 </html>
