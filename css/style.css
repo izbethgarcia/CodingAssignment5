@@ -1,29 +1,32 @@
-* {
-box-sizing: border-box;
+*{
+    box-sizing: border-box;
 }
-
-[class*="col"] {
-      float: left;
-     /* padding: 15px; */
-     }
-
-.row::after {
- content: "";
- clear: both;
- display: block;
+[class*="col"]{
+    float:left;
+    /*padding: 15px;*/
     }
+.row::after{
+    content:"";
+    clear: both;
+    display:block;
+}
 body {
- background: #F2F2EB;
+ background: #f3f3ef;
  color: #B8B828;
  font-family: "Open Sans, Inter";
 /*font-weight: bold; */
 }
-
 h1, h2, h3 {
  font-family: "Lato";   
  color: #B8B828;
  font-style:normal;
 /*font-size:30px; */
+}
+p{
+    background-color:#B8B828;;
+    width:auto;
+    padding:5px;
+    /* border: double cornflowerblue; */
 }
 
 legend, fieldset {
@@ -31,7 +34,7 @@ color: #B8B828;
 }
 
 p {
- color: #B8B828;    
+ color: #f2f2ec;    
 }
 
 li {
